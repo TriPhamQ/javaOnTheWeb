@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+  <breakfastMenu>
+    <item category="entree">
+      <name>Omelets</name>
+      <description>Fried egg</description>
+      <price>$2.99</price>
+    </item>
+    <item category="entree">
+      <name>Chicken Salad</name>
+      <description>A salad with chicken</description>
+      <price>$10.99</price>
+    </item>
+    <item category="beverage">
+      <name>Coffee</name>
+      <description>A cup of coffee</description>
+      <price>$3.99</price>
+    </item>
+  </breakfastMenu>
+  <lunchMenu>
+    <item category="entree">
+      <name>Chicken Salad</name>
+      <description>A salad with chicken</description>
+      <price>$10.99</price>
+    </item>
+    <item category="entree">
+      <name>Chicken Sandwich</name>
+      <description>A sandwich with chicken</description>
+      <price>$12.99</price>
+    </item>
+    <item category="entree">
+      <name>Pastrami Sandwich</name>
+      <description>A sandwich made with pastrami</description>
+      <price>$13.99</price>
+    </item>
+    <item category="beverage">
+      <name>Coca-Cola</name>
+      <description>A fizzy cola soda</description>
+      <price>$0.99</price>
+    </item>
+    <item category="beverage">
+      <name>Orange Juice</name>
+      <description>A juice made with oranges</description>
+      <price>$0.99</price>
+    </item> 
+  </lunchMenu>
+  <dinnerMenu>
+    <item category="entree">
+      <name>Orange chicken chow mein</name>
+      <description>Chow mein served with orange chicken</description>
+      <price>$10.99</price>
+    </item>
+    <item category="entree">
+      <name>Beijing beef rice</name>
+      <description>Beijing beef and rice</description>
+      <price>$12.99</price>
+    </item>
+    <item category="beverage">
+      <name>Coca-Cola</name>
+      <description>A fizzy cola soda</description>
+      <price>$0.99</price>
+    </item>
+    <item category="beverage">
+      <name>Orange Juice</name>
+      <description>A juice made with oranges</description>
+      <price>$0.99</price>
+    </item> 
+  </dinnerMenu>
+</restaurant>
+
+<?xml version="1.0" encoding="UTF-8"?>
+  <display-name>SimpleServletProject</display-name> <!--Application title on browser-->
+  <servlet>
+    <servlet-name>simpleServlet</servlet-name> <!--Namespace for servlet-->
+    <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class> <!--Use this SimpleServlet java file in org/codingdojo/tutorial folder once servlet name is called-->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>simpleServlet</servlet-name> <!--Servlet name of /simpleServlet url-->
+    <url-pattern>/simpleServlet</url-pattern> <!--route at /simpleServlet-->
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>xmlServlet</servlet-name>
+    <servlet-class>or.codingdojo.tutorial.XmlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>xmlServlet</servlet-name>
+    <url-pattern>/xmlServletpath</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list> <!--Html file served at root url-->
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
