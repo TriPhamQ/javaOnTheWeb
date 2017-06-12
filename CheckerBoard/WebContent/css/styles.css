@@ -1,0 +1,18 @@
+.purple-field {
+  display: inline-block; 
+  background-color: purple; 
+  height: 50px; 
+  width: 50px;
+}
+
+.blue-field {
+  display: inline-block; 
+  background-color: blue; 
+  height: 50px; 
+  width: 50px;  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
