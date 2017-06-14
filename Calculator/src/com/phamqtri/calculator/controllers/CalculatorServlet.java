@@ -95,6 +95,7 @@ public class CalculatorServlet extends HttpServlet {
 			else if (input.equals("c")) {
 				calculator.reset();
 				session.setAttribute("current", "");
+				session.setAttribute("operator", null);
 				session.setAttribute("result", calculator.getResult());
 				session.setAttribute("resultsHistory", calculator.getEqualResult());
 			}

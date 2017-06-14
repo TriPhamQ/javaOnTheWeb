@@ -21,11 +21,13 @@
         <a href="/Calculator/?button=8">8</a>
         <a href="/Calculator/?button=9">9</a>
         <a href="/Calculator/?button=0">0</a>
+        <br>
         <a href="/Calculator/?button=division">/</a>
         <a href="/Calculator/?button=multiplication">x</a>
         <a href="/Calculator/?button=subtraction">-</a>
         <a href="/Calculator/?button=addition">+</a>
         <a href="/Calculator/?button=equal">=</a>
+        <br>
         <a href="/Calculator/?button=c">C</a>
     </body>
 </html>
